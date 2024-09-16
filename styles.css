@@ -1,0 +1,56 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and main styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #eeede2;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #f5f7f9;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+.profile {
+    background: #589ee4;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 0.5rem 0;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
